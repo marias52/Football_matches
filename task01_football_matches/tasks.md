@@ -6,7 +6,7 @@ Each of the questions/tasks below can be answered using a `SELECT` query. When y
 
 ```sql
 
-    SELECT * FROM matches WHERE season > 2017;
+    SELECT * FROM matches WHERE season = 2017;
 
 ```
 
@@ -23,9 +23,7 @@ Each of the questions/tasks below can be answered using a `SELECT` query. When y
 
 ```sql
 
-    SELECT DISTINCT hometeam FROM matches;
-    SELECT DISTINCT awayteam FROM matches;
-
+    SELECT name FROM divisions WHERE country = 'Scotland';
 
 ```
 
